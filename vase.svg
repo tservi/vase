@@ -22,6 +22,6 @@
 	<use href="#bord" transform="translate(744,0)scale(-1,1)"></use>
 
 	<!-- elipse finale -->
-	<path d="M272 1000 A 50 10 0 1 0 472 1000" stroke-width="2" fill="transparent" stroke="black"/>
+	<path d="M272 1000 A 100 10 0 1 0 472 1000" stroke-width="2" fill="transparent" stroke="black"/>
 
 </svg>
