@@ -1,0 +1,63 @@
+<svg width="210mm" height="297mm" viewbox="0 0 744 1052" xmlns="http://www.w3.org/2000/svg">
+    <!-- Indique la position -->
+<style>
+/* <![CDATA[ */
+/* 744x1052 px at 90 px/in 
+
+    ellipse {
+      stroke-width: 2;
+      fill: transparent;
+      stroke:black;
+    }
+
+    path {
+      stroke-width: 2;
+      fill: transparent;
+      stroke:black;
+    }
+
+*/
+
+ /* ]]> */
+</style>
+  	<ellipse cx="322" cy="40" rx="200" ry="10"  stroke-width="2" fill="transparent" stroke="black"/>
+
+	<g id="bord">
+		<!-- petit rond -->
+  		<path d="M122 40 A 5 5 0 1 0 122 50" stroke-width="2" fill="transparent" stroke="black"/> 
+			<!--
+			<path d="M522 40 A 5 5 0 1 1 522 50" stroke-width="2" fill="transparent" stroke="black" /> 
+			-->
+			<!-- elipse 1 -->
+        		<!-- 
+				<path d="M122 50 A 80 150 0 1 1 122 350" stroke-width="2" fill="transparent" stroke="black"/> 
+				<path d="M522 50 A 80 150 0 1 0 522 350" stroke-width="2" fill="transparent" stroke="black"/> 
+			-->
+		<!-- bezier 1 -->
+		<path d="M122 50 C 142 50 322 150 122 350" stroke-width="2" fill="transparent" stroke="black"/>
+			<!--
+			<path d="M522 50 C 502 50 322 150 522 350" stroke-width="2" fill="transparent" stroke="black"/>
+			-->
+		<!-- bezier 2 --> 
+		<path d="M122 350 C 20 450 -10 800 252 980" stroke-width="2" fill="transparent" stroke="black"/>
+			<!--
+			<path d="M522 350 C 724 400 714 900 392 980" stroke-width="2" fill="transparent" stroke="black"/>
+			-->
+		<!-- petit rond : bezier 3 -->
+  		<path d="M252 980 Q 272 990 272 1000" stroke-width="2" fill="transparent" stroke="black"/> 
+			<!--
+			<path d="M392 980 Q 372 990 372 1000" stroke-width="2" fill="transparent" stroke="black"/> 
+			-->
+	</g>
+	
+
+	<use href="#bord" transform="translate(644,0)scale(-1,1)"></use>
+
+	<!-- elipse finale -->
+	<path d="M272 1000 A 50 10 0 1 0 372 1000" stroke-width="2" fill="transparent" stroke="black"/>
+
+   	<!-- <ellipse cx="322" cy="1000" rx="50" ry="10" /> -->
+
+
+
+</svg>
